@@ -1,0 +1,117 @@
+<!-- 2272035 Nabilla Octaviani Rusmayanto -->
+<!DOCTYPE html>
+<html>
+
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <script>
+      $(document).ready(function () {
+         $("#panel1").show();
+         $("#panel2").hide();
+         $("#panel3").hide();
+         $("#flip1").click(function () {
+            $("#panel1").slideToggle();
+            $("#panel2").hide();
+            $("#panel3").hide();
+         });
+         $("#flip2").click(function () {
+            $("#panel1").hide();
+            $("#panel2").slideToggle();
+            $("#panel3").hide();
+         });
+         $("#flip3").click(function () {
+            $("#panel1").hide();
+            $("#panel2").hide();
+            $("#panel3").slideToggle();
+         });
+      });
+   </script>
+   <style>
+      .panel {
+         margin: 0;
+         padding: 0;
+      }
+
+      .flip {
+         background-color: #dfbf9f;
+         text-align: center;
+         border: solid 1px black;
+      }
+
+      #panel1 {
+         height: auto;
+         display: none;
+         background-color: skyblue;
+         border: solid 5px black;
+         padding: 50px;
+         text-align: justify;
+         display: "none"
+      }
+
+      #panel2 {
+         height: auto;
+         background-color: black;
+         color: whitesmoke;
+         border: solid 5px whitesmoke;
+         padding: 50px;
+         text-align: justify;
+         display: "none"
+      }
+
+      #panel3 {
+         height: auto;
+         background-color: whitesmoke;
+         border: solid 5px black;
+         padding: 50px;
+         text-align: justify;
+         display: "none"
+      }
+   </style>
+</head>
+
+<b>
+
+   <div id="flip1" class="flip" style="font-family: Arial, Helvetica, sans-serif;"><b>
+         <h1>Certified Ethical Hacker</h1>
+      </b></div>
+   <div id="panel1" style="display: none; font-family: Arial, Helvetica, sans-serif;">
+      Certified Ethical Hacker (CEH) is a qualification obtained by assessing the security of computer systems, using
+      penetration testing techniques. The code for the CEH exam is 312-50, and the certification is in Version 9 as of
+      2016.Penetration tests are employed by organizations that hire certified ethical hackers to penetrate networks and
+      computer systems with the purpose of finding and fixing security vulnerabilities. The EC-Council offers another
+      certification, known as Certified Network Defense Architect (CNDA). This certification is designed for United
+      States Government agencies and is available only to members of selected agencies including some private government
+      contractors, primarily in compliance to DOD Directive 8570.01-M.
+   </div>
+   <div id="flip2" class="flip" style="font-family: Arial, Helvetica, sans-serif;">
+      <h1>Google Developers Certification</h1>
+   </div>
+   <div id="panel2" style="display: none;font-family: Arial, Helvetica, sans-serif;">
+      Google Developers Certification lets you demonstrate your proficiency and skill. After you pass a certification
+      exam, you can use your certification to promote yourself to the communities, projects, and employers that are
+      important to you.
+      All the certification exams are backed by rich training content offered as online curriculum, instructor-led
+      training, or self-study materials. When you pass a certification exam, Google stores your certificate, badge, or
+      other digital mark in a central, verifiable location. You can include your digital mark in your email signature
+      and embed it on sites such as LinkedIn and Twitter.
+   </div>
+   <div id="flip3" class="flip" style="font-family: Arial, Helvetica, sans-serif;"><b>
+         <h1> Certified Network
+            Associate</h1>
+      </b></div>
+   <div id="panel3" style="display: none; font-family: Arial, Helvetica, sans-serif;">CCNA (Cisco Certified Network
+      Associate) is an information technology (IT) certification from Cisco. CCNA
+      certification is an associate-level Cisco Career certification. The Cisco exams have changed several times. In
+      2013, Cisco announced an update to its certification program that "aligns certification and training curricula
+      with evolving industry job roles." There are now several different types of Cisco-Certified Network Associate,
+      with "CCNA Routing and Switching" being closest to the original CCNA focus; other types of CCNA focus on
+      security,
+      cloud, collaboration, security operations, design, data center technologies, xindustrial plants, service
+      providers, and wireless.
+
+   </div>
+
+
+   </body>
+
+</html>
